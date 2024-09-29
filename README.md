@@ -29,6 +29,16 @@ The project uses a dataset containing information about used cars, including fea
 
 The dataset can be loaded from the provided URLs in the notebook.
 
+## Model Architecture
+This project employs a stacking ensemble model that combines multiple regression algorithms to enhance prediction accuracy.
+
+![Model Architecture](ML%20Model%20Explained.png)
+
+## Results
+The following plot shows the actual versus predicted values, illustrating the model's performance.
+
+![Actual vs. Predicted](Prediction%20Score.png)
+
 ## Getting Started
 To run this project locally, follow these steps:
 
@@ -52,15 +62,9 @@ To run this project locally, follow these steps:
 - **Model Training:** The stacking ensemble approach combines different models to achieve better accuracy.
 - **Hyperparameter Optimization:** The use of Optuna to fine-tune model parameters for improved performance.
 
-## Demo
-For a demonstration of the model's performance, refer to the results presented in the notebook.
-
 ## Conclusion
 This project showcases the implementation of a stacking ensemble technique for predicting car prices, highlighting the effectiveness of combining multiple models to improve prediction accuracy.
 
 ## License
 This project is licensed under the MIT License.
 
----
-
-Feel free to adjust any sections to better fit your project's details or style!
